@@ -1,0 +1,13 @@
+name: SignShop
+version: 1.1.0
+main: de.server.signshop.SignShopPlugin
+api-version: '1.21'
+softdepend: [Vault]
+commands:
+  shop:
+    description: Konfiguriert, inspiziert und verwaltet SignShops
+    usage: /shop <set|admin> ...
+permissions:
+  signshop.admin:
+    description: Erlaubt das Verwalten, Öffnen und Löschen aller Shops per ID oder vor Ort
+    default: op
